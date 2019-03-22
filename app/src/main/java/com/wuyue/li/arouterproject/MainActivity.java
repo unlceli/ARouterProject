@@ -21,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
                 ARouter.getInstance().build("/test/YourAcitivty").navigation();
             }
         });
+
+        findViewById(R.id.bt_jumpmain).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ARouter.getInstance().build("/test/YourAcitivty").navigation();
+            }
+        });
+
     }
 }
